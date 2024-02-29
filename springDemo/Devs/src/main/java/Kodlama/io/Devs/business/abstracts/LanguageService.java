@@ -1,12 +1,9 @@
-package Kodlama.io.Devs.dataAccess.abstracts;
+package Kodlama.io.Devs.business.abstracts;
 
 import java.util.List;
 
 import Kodlama.io.Devs.entities.concretes.SoftwareLanguage;
 
-
-public interface SLanguageRepository { //Dao
-
+public interface LanguageService {
 	List<SoftwareLanguage> getAll();
-
 }
